@@ -1,0 +1,23 @@
+{
+    "neogcampProjects": [
+        {
+            "id": 1,
+            "name": "How well do you know me?",
+            "url": "https://replit.com/@Muralidhar22/How-well-do-you-know-Muralidhar?embed=1&output=1",
+            "source": "https://github.com/Muralidhar22/neogcamp-mark1"
+        },
+        {
+            "id": 2,
+            "name": "Quiz on Finance 💹",
+            "url": "https://replit.com/@Muralidhar22/Finance-Quiz?embed=1&output=1",
+            "source": "https://github.com/Muralidhar22/neogcamp-mark2"
+        }
+    ],
+    "personalProjects": [
+        {
+            "name": "Quiz App",
+            "url": "quiz-app-react-silo.netlify.app",
+            "source": "https://github.com/Muralidhar22/react-quiz-app"
+        }
+    ]
+}

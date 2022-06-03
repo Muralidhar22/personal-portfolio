@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap');
+
+/* css reset  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --clr-primary-50: #f8fafc;
+  --clr-primary-100: #f1f5f9;
+  --clr-primary-200: #e2e8f0;
+  --clr-primary-300: #cbd5e1;
+  --clr-primary-400: #94a3b8;
+  --clr-primary-500: #64748b;
+  --clr-primary-600: #475569;
+  --clr-primary-700: #334155;
+  --clr-primary-800: #1e293b;
+  --clr-primary-900: #0f172a;
+}
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: var(--clr-primary-900);
+  color: var(--clr-primary-100);
+}
+
+/** links **/
+.link {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.link-primary {
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--clr-primary-50);
+  color: var(--clr-primary-600);
+  margin: 1rem auto;
+  border-radius: 2rem;
+}
+
+.link-secondary {
+  max-width: 140px;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--clr-primary-50);
+}
+
+/* projects */
+.project-wrapper {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.project-wrapper h2 {
+  margin-bottom: 1rem;
+}
+
+.odd-bg {
+  background-color: var(--clr-primary-700);
+}
