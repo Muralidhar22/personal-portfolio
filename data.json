@@ -18,22 +18,22 @@
             "id": 3,
             "name": "Personal Portfolio (Mark 3, 4, 5)",
             "date": "June, 2022",
-            "url": "",
-            "source": ""
+            "url": "https://muralidhar-portfolio.netlify.app/",
+            "source": "https://github.com/Muralidhar22/neogcamp-personal-portfolio"
         },
         {
             "id": 4,
             "name": "Banana Translator (Mark 6)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark6"
         },
         {
             "id": 5,
             "name": "Funky Translator (Mark 7)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark7"
         },
         {
             "id": 6,
@@ -54,35 +54,35 @@
             "name": "Cash Manager (Mark 10)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark10"
         },
         {
             "id": 9,
             "name": "Is your Birthday Lucky? (Mark 11)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark11"
         },
         {
             "id": 10,
             "name": "Fun with 🔺Triangles🔻 (Mark 12)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark12"
         },
         {
             "id": 11,
             "name": "Is your Birthday 🎂 Palindrome? (Mark 13)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark13"
         },
         {
             "id": 12,
             "name": "Profit ⬆ (or) Loss ⬇ (Mark 14)",
             "date": "June, 2022",
             "url": "",
-            "source": ""
+            "source": "https://github.com/Muralidhar22/neogcamp-mark14"
         }
     ],
     "personalProjects": [
