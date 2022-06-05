@@ -2,15 +2,87 @@
     "neogcampProjects": [
         {
             "id": 1,
-            "name": "How well do you know me?",
+            "name": "How well do you know me? (Mark 1)",
+            "date": "May, 2022",
             "url": "https://replit.com/@Muralidhar22/How-well-do-you-know-Muralidhar?embed=1&output=1",
             "source": "https://github.com/Muralidhar22/neogcamp-mark1"
         },
         {
             "id": 2,
-            "name": "Quiz on Finance 💹",
+            "name": "Quiz on Finance 💹 (Mark 2)",
+            "date": "May, 2022",
             "url": "https://replit.com/@Muralidhar22/Finance-Quiz?embed=1&output=1",
             "source": "https://github.com/Muralidhar22/neogcamp-mark2"
+        },
+        {
+            "id": 3,
+            "name": "Personal Portfolio (Mark 3, 4, 5)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 4,
+            "name": "Banana Translator (Mark 6)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 5,
+            "name": "Funky Translator (Mark 7)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 6,
+            "name": "Emoji Interpreter (Mark 8)",
+            "date": "June, 2022",
+            "url": "https://csb-yq1wju.netlify.app/",
+            "source": "https://codesandbox.io/s/emoji-interpreter-yq1wju"
+        },
+        {
+            "id": 7,
+            "name": "Suggestion App (Mark 9)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 8,
+            "name": "Cash Manager (Mark 10)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 9,
+            "name": "Is your Birthday Lucky? (Mark 11)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 10,
+            "name": "Fun with 🔺Triangles🔻 (Mark 12)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 11,
+            "name": "Is your Birthday 🎂 Palindrome? (Mark 13)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
+        },
+        {
+            "id": 12,
+            "name": "Profit ⬆ (or) Loss ⬇ (Mark 14)",
+            "date": "June, 2022",
+            "url": "",
+            "source": ""
         }
     ],
     "personalProjects": [
