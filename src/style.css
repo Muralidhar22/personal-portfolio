@@ -118,6 +118,12 @@ header img {
   margin: auto;
 }
 
+.greeting {
+  display: inline-block;
+  width: 125px;
+  color: var(--clr-accent-green);
+}
+
 /* projects */
 .project-wrapper {
   padding: 1rem 1rem 2rem 1rem;

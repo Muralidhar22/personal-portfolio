@@ -1,3 +1,4 @@
+
 // display projects
 async function displayProjects(){
     const goToTop = document.getElementById("goToTop")
