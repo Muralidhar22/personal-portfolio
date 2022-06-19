@@ -44,7 +44,7 @@
             "id": 6,
             "name": "Emoji Interpreter (Mark 8)",
             "date": "June, 2022",
-            "description": "",
+            "description": "A basic React JS app to interpret emoji's",
             "url": "https://csb-yq1wju.netlify.app/",
             "source": "https://codesandbox.io/s/emoji-interpreter-yq1wju"
         },
@@ -52,7 +52,7 @@
             "id": 7,
             "name": "Suggestion App (Mark 9)",
             "date": "June, 2022",
-            "description": "A basic React JS app to interpret emoji's",
+            "description": "A React JS app recommends Movies and TV series to watch and enjoy.",
             "url": "https://filmy-buff.netlify.app/",
             "source": "https://github.com/Muralidhar22/neogcamp-mark9"
         },
