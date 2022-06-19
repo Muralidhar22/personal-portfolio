@@ -94,6 +94,11 @@ img {
   color: var(--clr-accent-green);
 }
 
+.link svg {
+  fill: var(--clr-accent-green);
+  margin: 1rem;
+}
+
 /* navigation */
 nav {
   background-color: var(--clr-primary-600);
@@ -156,6 +161,14 @@ header img {
   bottom: 150px;
   border-radius: .5em;
   font-family: inherit;
+}
+
+.date {
+  text-decoration: underline;
+}
+
+.project-description {
+  margin: 1rem;
 }
 
 /* social icons */

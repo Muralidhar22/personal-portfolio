@@ -11,10 +11,12 @@ async function displayProjects(){
         const source = document.createElement("a");
         const live = document.createElement("a");
         const title = document.createElement("h2");
+        const para = document.createElement("p");
         const liveText = document.createTextNode("Live");
         const sourceText = document.createTextNode("Source");
         const date= document.createTextNode(`${element.date}`)
         const smallElement = document.createElement("small")
+        const description = document.createTextNode(`${element.description}`)
         
         // setting class names
         if(element.id % 2 !== 0){
@@ -22,6 +24,7 @@ async function displayProjects(){
         }
         else article.className = "project-wrapper"
         
+        para.className = "project-description"
         live.className = "link link-primary"
         source.className = "link link-secondary"
         smallElement.className = "date block"
@@ -40,7 +43,8 @@ async function displayProjects(){
         const textNode = document.createTextNode(`${element.name}`);
         title.appendChild(textNode)
         smallElement.appendChild(date)
-        article.append(title,smallElement,live,source)
+        para.appendChild(description)
+        article.append(title,smallElement,para,live,source)
         projectsContainer.appendChild(article)
     });
 
