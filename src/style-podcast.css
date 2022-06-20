@@ -4,9 +4,41 @@ body {
     font-family: "Roboto", sans-serif;
     max-width: 600px;
     margin: auto;
+    word-spacing: 2.75px;
+}
+
+main {
+    margin: auto;
+    width: 60ch;
+}
+
+a {
+    text-decoration: none;
 }
 
 .hero-img {
     width: 100%;
     display: block;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    color: purple;
+}
+
+.prev-page {
+    color: blue;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+.list-item-inline {
+    display: inline-block;
+    margin: 1rem;
 }

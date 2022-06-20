@@ -192,6 +192,11 @@ header img {
   padding-bottom: 2rem;
 }
 
+.blog-desc {
+  font-family: cursive;
+  margin: 1rem;
+}
+
 .welcome-msg {
   width: 35ch;
   margin: auto;
