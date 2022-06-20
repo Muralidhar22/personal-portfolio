@@ -8,8 +8,9 @@ body {
 }
 
 main {
+    padding: 1rem;
     margin: auto;
-    width: 60ch;
+    max-width: 60ch;
 }
 
 a {
@@ -29,6 +30,7 @@ h2 {
     color: purple;
 }
 
+
 .prev-page {
     color: blue;
     font-weight: bold;
@@ -41,4 +43,16 @@ footer {
 .list-item-inline {
     display: inline-block;
     margin: 1rem;
+}
+
+
+@media screen and (min-width: 750px) {
+    .podcast {
+        width: 500px;
+        height: 100%;
+    }
+}
+
+.podcast {
+    max-width: 100%;
 }
