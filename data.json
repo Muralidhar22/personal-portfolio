@@ -1,6 +1,13 @@
 {
     "mainProjects": [
         {
+            "id": 5,
+            "name": "Open source contributions",
+            "description": "Am an open source contributor at Real dev squad",
+            "url": "https://my-osc.netlify.app/Muralidhar22",
+            "source": "https://my-osc.netlify.app/Muralidhar22"
+        },
+        {
             "id": 1,
             "name": "Game-X",
             "description": "An online E commerce Game store app",
