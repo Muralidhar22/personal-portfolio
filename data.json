@@ -1,8 +1,38 @@
 {
-    "neogcampProjects": [
+    "mainProjects": [
         {
             "id": 1,
-            "name": "How well do you know me? (Mark 1)",
+            "name": "Game-X",
+            "description": "An online E commerce Game store app",
+            "url": "https://game-x-store.netlify.app/",
+            "source": "https://github.com/Muralidhar22/game-x"
+        },
+        {
+            "id": 2,
+            "name": "Tether",
+            "description": "A Social Media App",
+            "url": "https://social-tether.vercel.app/",
+            "source": "https://github.com/Muralidhar22/social-tether"
+        },
+        {
+            "id": 3,
+            "name": "Lift simulation",
+            "description": "A Multiplayer/user lift simulation app",
+            "url": "https://lift-sim-be.onrender.com/",
+            "source": "https://github.com/Muralidhar22/lift-simulation-mp"
+        },
+        {
+            "id": 4,
+            "name": "EmailCC",
+            "description": "A Client Email App",
+            "url": "https://email-client-mrldhr.netlify.app/",
+            "source": "https://github.com/Muralidhar22/email-cc"
+        }
+    ],
+    "miniProjects": [
+        {
+            "id": 1,
+            "name": "How well do you know me?",
             "date": "May, 2022",
             "description": "A CLI app made with NodeJS to test, how well do you know me.",
             "url": "https://replit.com/@Muralidhar22/How-well-do-you-know-Muralidhar?embed=1&output=1",
@@ -10,23 +40,15 @@
         },
         {
             "id": 2,
-            "name": "Quiz on Finance 💹 (Mark 2)",
+            "name": "Quiz on Finance 💹",
             "date": "May, 2022",
             "description": "Want to test your knowledge in finance, try CLI quiz App",
             "url": "https://replit.com/@Muralidhar22/Finance-Quiz?embed=1&output=1",
             "source": "https://github.com/Muralidhar22/neogcamp-mark2"
         },
         {
-            "id": 3,
-            "name": "Personal Portfolio (Mark 3, 4, 5)",
-            "date": "June, 2022",
-            "description": "My personal portfolio developed using HTML, CSS, JS.It has all my projects and blogs",
-            "url": "https://muralidhar-portfolio.netlify.app/",
-            "source": "https://github.com/Muralidhar22/neogcamp-personal-portfolio"
-        },
-        {
             "id": 4,
-            "name": "Banana Translator (Mark 6)",
+            "name": "Banana Translator",
             "date": "June, 2022",
             "description": "A fun translation app developed using Vanilla JS, translates english to minion language(BaNaNa)",
             "url": "https://muralidhar22.github.io/neogcamp-mark6/",
@@ -34,7 +56,7 @@
         },
         {
             "id": 5,
-            "name": "Groot Speaks (Mark 7)",
+            "name": "Groot Speaks",
             "date": "June, 2022",
             "description": "A translation app, which has speech recognition feature in addition to text translation of english to groot language",
             "url": "https://muralidhar22.github.io/neogcamp-mark7/",
@@ -42,7 +64,7 @@
         },
         {
             "id": 6,
-            "name": "Emoji Interpreter (Mark 8)",
+            "name": "Emoji Interpreter",
             "date": "June, 2022",
             "description": "A basic React JS app to interpret emoji's",
             "url": "https://csb-yq1wju.netlify.app/",
@@ -50,7 +72,7 @@
         },
         {
             "id": 7,
-            "name": "Suggestion App (Mark 9)",
+            "name": "Suggestion App",
             "date": "June, 2022",
             "description": "A React JS app recommends Movies and TV series to watch and enjoy.",
             "url": "https://filmy-buff.netlify.app/",
@@ -58,7 +80,7 @@
         },
         {
             "id": 8,
-            "name": "Cash Register Manager (Mark 10)",
+            "name": "Cash Register Manager",
             "date": "June, 2022",
             "description": "App developed using Vanilla JS which will tell you the change to be returned after paying the bill.",
             "url": "https://muralidhar22.github.io/neogcamp-mark10/",
@@ -66,7 +88,7 @@
         },
         {
             "id": 9,
-            "name": "Is your Birthday Lucky? (Mark 11)",
+            "name": "Is your Birthday Lucky?",
             "date": "June, 2022",
             "description": "This app lets you know whether your birthday is LUCKY",
             "url": "https://muralidhar22.github.io/neogcamp-mark11/",
@@ -74,7 +96,7 @@
         },
         {
             "id": 10,
-            "name": "Fun with 🔺Triangles🔻 (Mark 12)",
+            "name": "Fun with 🔺Triangles🔻",
             "date": "June, 2022",
             "description": "A React JS app built to test and gain knowledge on triangles, try it!",
             "url": "https://fun-triangles-mark12.netlify.app/",
@@ -82,7 +104,7 @@
         },
         {
             "id": 11,
-            "name": "Is your Birthday 🎂 Palindrome? (Mark 13)",
+            "name": "Is your Birthday 🎂 Palindrome?",
             "date": "June, 2022",
             "description": "A Vanilla JS app tells whether your birthday is a 'Palindrome'",
             "url": "https://muralidhar22.github.io/neogcamp-mark13/",
@@ -90,18 +112,11 @@
         },
         {
             "id": 12,
-            "name": "Profit ⬆ (or) Loss ⬇ (Mark 14)",
+            "name": "Profit ⬆ (or) Loss ⬇",
             "date": "June, 2022",
             "description": "A Vanilla JS app with theme changer, which changes theme accordingly to loss or profit incurred from the stocks bought",
             "url": "https://muralidhar22.github.io/neogcamp-mark14/",
             "source": "https://github.com/Muralidhar22/neogcamp-mark14"
-        }
-    ],
-    "personalProjects": [
-        {
-            "name": "Quiz App",
-            "url": "quiz-app-react-silo.netlify.app",
-            "source": "https://github.com/Muralidhar22/react-quiz-app"
         }
     ]
 }

@@ -1,10 +1,11 @@
 
 // display projects
-async function displayProjects(){
+async function displayProjects(dataSet){
     const goToTop = document.getElementById("goToTop")
-    const projectsContainer = document.querySelector(".projects-container");
+    const mainProjectsContainer = document.querySelector(".main-projects-container");
+    const miniProjectsContainer = document.querySelector(".mini-projects-container");
     const data = await fetchData();
-    const neogCamp = data.neogcampProjects;
+    const neogCamp = data[dataSet];
     
     neogCamp.forEach(element => {
         const article = document.createElement("article");
@@ -14,7 +15,6 @@ async function displayProjects(){
         const para = document.createElement("p");
         const liveText = document.createTextNode("Live");
         const sourceText = document.createTextNode("Source");
-        const date= document.createTextNode(`${element.date}`)
         const smallElement = document.createElement("small")
         const description = document.createTextNode(`${element.description}`)
         
@@ -42,10 +42,10 @@ async function displayProjects(){
 
         const textNode = document.createTextNode(`${element.name}`);
         title.appendChild(textNode)
-        smallElement.appendChild(date)
         para.appendChild(description)
         article.append(title,smallElement,para,live,source)
-        projectsContainer.appendChild(article)
+        if(dataSet.includes("main")) mainProjectsContainer.appendChild(article)
+        else miniProjectsContainer.appendChild(article)
     });
 
     // go to top of the page
@@ -74,4 +74,5 @@ async function fetchData(){
     return data;
 }
 
-displayProjects();
+displayProjects("mainProjects");
+displayProjects("miniProjects")
